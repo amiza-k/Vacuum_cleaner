@@ -24,10 +24,10 @@ def is_clean(a):
 
 def change_Room(a):
     if a=="A":
-        print("Moving to room B")
+        print("Moving to room B. Right")
         a="B"
     elif a=="B":
-        print("Moving to room A")
+        print("Moving to room A. Left")
         a="A"
     print("Moving. 3 seconds. ")
     time.sleep(3)
